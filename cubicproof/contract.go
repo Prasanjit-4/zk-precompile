@@ -158,7 +158,7 @@ func createCubicproofPrecompile() contract.StatefulPrecompiledContract {
 	for name, function := range abiFunctionMap {
 		method, ok := CubicproofABI.Methods[name]
 		if !ok {
-			panic(fmt.Errorf("given method (%s) does not exist in the ABI", name))
+			panic(fmt.Errorf("given method (%s) does notexist in the ABI", name))
 		}
 		functions = append(functions, contract.NewStatefulPrecompileFunction(method.ID, function))
 	}
@@ -169,3 +169,4 @@ func createCubicproofPrecompile() contract.StatefulPrecompiledContract {
 	}
 	return statefulContract
 }
+
