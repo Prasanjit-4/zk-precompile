@@ -169,4 +169,3 @@ func createCubicproofPrecompile() contract.StatefulPrecompiledContract {
 	}
 	return statefulContract
 }
-
