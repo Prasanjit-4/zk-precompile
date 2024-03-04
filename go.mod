@@ -7,7 +7,7 @@ require (
 	github.com/ava-labs/subnet-evm v0.5.10
 	github.com/onsi/ginkgo/v2 v2.8.1
 	github.com/onsi/gomega v1.26.0
-	github.com/stretchr/testify v1.8.4
+	github.com/stretchr/testify v1.9.0
 )
 
 require (
