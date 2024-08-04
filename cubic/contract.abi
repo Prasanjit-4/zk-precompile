@@ -1,0 +1,1 @@
+[{"inputs":[{"internalType":"uint64","name":"x","type":"uint64"},{"internalType":"uint64","name":"y","type":"uint64"}],"name":"verify","outputs":[{"internalType":"bool","name":"result","type":"bool"}],"stateMutability":"view","type":"function"}]
